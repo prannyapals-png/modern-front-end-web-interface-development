@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Crown Health Clinic to ask about services, appointments, and care support options." />
+  <title>Crown Health Clinic | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="logo" href="index.html" aria-label="Crown Health Clinic home">
+        <img class="logo-image" src="images/crown-health-logo.png" alt="Crown Health Clinic logo" />
+        <span>Crown Health Clinic</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a class="active" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section page-hero">
+      <div class="container split-grid align-center">
+        <div>
+          <p class="eyebrow">Contact us</p>
+          <h1>Speak with our clinic team</h1>
+          <p class="lead">Use the enquiry form below to request information about services, appointments, telehealth, or general support.</p>
+        </div>
+        <div class="card image-card">
+          <img src="images/contact-health.svg" alt="Illustration of a clinic contact page with doctor support, phone, message bubbles, and location icons." />
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-bg">
+      <div class="container contact-grid">
+        <article class="card contact-details">
+          <h2>Contact Information</h2>
+          <p><strong>Email:</strong> hello@crownhealthclinic.com</p>
+          <p><strong>Phone:</strong> +61 2 9100 5678</p>
+          <p><strong>Location:</strong> Level 5<br>213 Miller St<br>North Sydney NSW 2060<br>Australia</p>
+          <p><strong>Hours:</strong> Monday to Saturday, 8:00 AM - 6:00 PM</p>
+          <div class="map-embed-wrapper">
+            <iframe
+              class="map-embed"
+              title="Map showing Crown Health Clinic at Level 5, 213 Miller St, North Sydney NSW 2060, Australia"
+              src="https://www.google.com/maps?q=Level%205%20213%20Miller%20St%20North%20Sydney%20NSW%202060%20Australia&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Map showing Crown Health Clinic location in North Sydney"
+            ></iframe>
+          </div>
+          <p class="map-link"><a href="https://www.google.com/maps/search/?api=1&query=Level%205%2C%20213%20Miller%20St%2C%20North%20Sydney%20NSW%202060%2C%20Australia" target="_blank" rel="noopener noreferrer">Open in Google Maps</a></p>
+        </article>
+
+        <article class="card form-card">
+          <h2>Send an Enquiry</h2>
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" required aria-describedby="name-error" />
+              <small id="name-error" class="error-message" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" required aria-describedby="email-error" />
+              <small id="email-error" class="error-message" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="course">Service Needed</label>
+              <select id="course" name="course">
+                <option value="">Select a service</option>
+                <option value="health-check">Annual Health Assessment</option>
+                <option value="telehealth">Telehealth Follow-Up</option>
+                <option value="nutrition">Lifestyle and Nutrition Advice</option>
+                <option value="care-plan">Care Plan Review</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required aria-describedby="message-error"></textarea>
+              <small id="message-error" class="error-message" aria-live="polite"></small>
+            </div>
+
+            <button class="button primary full-width" type="submit">Submit Enquiry</button>
+            <p id="form-success" class="success-message" aria-live="polite"></p>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About the prototype</p>
+          <h2>Built with industry-ready front-end foundations</h2>
+          <p>This contact page demonstrates accessible form controls, client-side validation, responsive layout, and clear information hierarchy suitable for a professional health service prototype.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand"><img class="footer-logo" src="images/crown-health-logo.png" alt="Crown Health Clinic logo" /><h2 class="footer-title">Crown Health Clinic</h2></div>
+        <p>Accessible, responsive, and ready for future framework or backend integration.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Quick Links</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="current-year"></span> Crown Health Clinic. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore Crown Health Clinic services, care options, and frequently asked questions." />
+  <title>Crown Health Clinic | Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="logo" href="index.html" aria-label="Crown Health Clinic home">
+        <img class="logo-image" src="images/crown-health-logo.png" alt="Crown Health Clinic logo" />
+        <span>Crown Health Clinic</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="services.html" aria-current="page">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section page-hero light-bg">
+      <div class="container split-grid align-center">
+        <div>
+          <p class="eyebrow">Our services</p>
+          <h1>Support options for modern patient care</h1>
+          <p class="lead">Browse our service categories and use the filter buttons to explore different care options. This page demonstrates dynamic content updates with JavaScript.</p>
+        </div>
+        <div class="card image-card">
+          <img src="images/services-health.svg" alt="Illustration showing healthcare services, appointment icons, and wellness support." />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Interactive service filter</p>
+          <h2>Choose a care category</h2>
+          <p>Use the buttons below to display different health support options. This demonstrates dynamic JavaScript interactivity in a professional prototype.</p>
+        </div>
+
+        <div class="filter-controls" role="group" aria-label="Filter services by category">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="preventive">Preventive</button>
+          <button class="filter-btn" data-filter="wellness">Wellness</button>
+          <button class="filter-btn" data-filter="support">Support</button>
+        </div>
+
+        <div class="card-grid three-col course-grid">
+          <article class="card course-card" data-category="preventive">
+            <h3>Annual Health Assessments</h3>
+            <p>Routine consultations that help identify concerns early and support ongoing health monitoring.</p>
+            <span class="pill">Preventive</span>
+          </article>
+          <article class="card course-card" data-category="wellness">
+            <h3>Lifestyle and Nutrition Advice</h3>
+            <p>Practical guidance focused on healthy habits, balanced routines, and achievable wellbeing goals.</p>
+            <span class="pill">Wellness</span>
+          </article>
+          <article class="card course-card" data-category="support">
+            <h3>Telehealth Follow-Up</h3>
+            <p>Convenient online consultations for patients who prefer flexible remote support.</p>
+            <span class="pill">Support</span>
+          </article>
+          <article class="card course-card" data-category="preventive">
+            <h3>Vaccination Consultations</h3>
+            <p>Guidance and appointment preparation for routine preventive care and seasonal health needs.</p>
+            <span class="pill">Preventive</span>
+          </article>
+          <article class="card course-card" data-category="wellness">
+            <h3>Mental Wellbeing Check-Ins</h3>
+            <p>Supportive conversations that promote healthy coping strategies and self-care awareness.</p>
+            <span class="pill">Wellness</span>
+          </article>
+          <article class="card course-card" data-category="support">
+            <h3>Care Plan Review</h3>
+            <p>Structured review appointments to help patients stay informed about their ongoing care pathway.</p>
+            <span class="pill">Support</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ accordion</p>
+          <h2>Frequently asked questions</h2>
+          <p>This section demonstrates an interactive accordion using vanilla JavaScript.</p>
+        </div>
+
+        <div class="faq-list">
+          <article class="faq-item card">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do I need an appointment before visiting?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>This prototype suggests appointments are recommended so patients can receive timely support and reduce waiting times.</p>
+            </div>
+          </article>
+
+          <article class="faq-item card">
+            <button class="faq-question" aria-expanded="false">
+              <span>Are telehealth services available?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Yes. Telehealth is presented as a convenient option for selected consultations and follow-up care.</p>
+            </div>
+          </article>
+
+          <article class="faq-item card">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I submit a general enquiry online?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              <p>Yes. The contact page includes a validated enquiry form so visitors can request service information or assistance.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand"><img class="footer-logo" src="images/crown-health-logo.png" alt="Crown Health Clinic logo" /><h2 class="footer-title">Crown Health Clinic</h2></div>
+        <p>Designed as a front-end health service prototype for future industry expansion.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Quick Links</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="current-year"></span> Crown Health Clinic. All rights reserved.</p>
+  </footer>
+</body>
+</html>

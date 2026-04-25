@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+<title>Health clinic hero illustration</title><desc>Doctor and patient illustration with wellness icons.</desc>
+<rect width="800" height="600" rx="36" fill="#eff6ff"/>
+<circle cx="615" cy="140" r="62" fill="#dbeafe"/>
+<rect x="88" y="150" width="260" height="250" rx="28" fill="#ffffff" stroke="#93c5fd" stroke-width="8"/>
+<rect x="420" y="180" width="220" height="170" rx="24" fill="#ffffff" stroke="#93c5fd" stroke-width="8"/>
+<circle cx="220" cy="220" r="46" fill="#1d4ed8"/>
+<rect x="165" y="270" width="110" height="85" rx="22" fill="#2563eb"/>
+<circle cx="510" cy="240" r="36" fill="#2563eb"/>
+<rect x="470" y="285" width="82" height="55" rx="18" fill="#1d4ed8"/>
+<path d="M650 325c0 58-47 105-105 105s-105-47-105-105 47-105 105-105c19 0 38 5 54 15 16-10 35-15 54-15 58 0 105 47 105 105Z" fill="#93c5fd" opacity=".55"/>
+<path d="M612 310h-38v-38h-58v38h-38v58h38v38h58v-38h38z" fill="#1d4ed8"/>
+<path d="M190 102h34v34h28v34h-28v34h-34v-34h-34v-34h34z" fill="#2563eb"/>
+<rect x="95" y="440" width="610" height="40" rx="20" fill="#dbeafe"/>
+</svg>
